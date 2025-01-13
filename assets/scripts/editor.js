@@ -378,7 +378,7 @@ let overviewData, bookData, activeBook, activeChapter, activeDemo;
 async function fetchOverview() {
 	// Fetch overview data
 	try {
-		let response = await fetch(`/overview.json`);
+		let response = await fetch(`../overview.json`);
 		response.json().then((json) => {
 			overviewData = json;
 			fetchData();
