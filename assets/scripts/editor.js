@@ -564,6 +564,28 @@ function populateInfo() {
 			}
 		})
 	}
+
+	// Add current demo settings to all book links
+	for (let link of document.querySelectorAll('.title-chapter')) {
+		link.addEventListener('click', (e) => {
+			e.preventDefault();
+
+			// Format settings
+			let formattedSettings = "";
+			for (let setting of Object.keys(currentSettings)) {
+				if (currentSettings[setting] != undefined) {
+					formattedSettings += `&${setting}=${currentSettings[setting]}`;
+				}
+			}
+
+			// Open link with current settings
+			if (link.target == "_blank") {
+				window.open(`${link.href}${formattedSettings}`, "_blank");
+			} else {
+				window.open(`${link.href}${formattedSettings}`, "_self");
+			}
+		})
+	}
 }
 async function fetchInfo() {
 	try {
