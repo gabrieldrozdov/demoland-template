@@ -1,0 +1,290 @@
+{
+	"example-chapter-1": {
+		"title": "Chapter Name",
+		"subtitle": "Chapter 1",
+		"desc": "This is where your chapter’s description would go!",
+		"color": "var(--pink)",
+		"demos": {
+			"example-demo-1": {
+				"name": "Example Demo 1",
+				"color": "var(--pink)"
+			},
+			"example-demo-2": {
+				"name": "Example Demo 2",
+				"color": "var(--pink)"
+			},
+			"example-demo-3": {
+				"name": "Example Demo 3",
+				"color": "var(--pink)"
+			},
+			"example-demo-4": {
+				"name": "Example Demo 4",
+				"color": "var(--pink)"
+			},
+			"example-demo-5": {
+				"name": "Example Demo 5",
+				"color": "var(--pink)"
+			},
+			"example-demo-6": {
+				"name": "Example Demo 6",
+				"color": "var(--pink)"
+			},
+			"example-demo-7": {
+				"name": "Example Demo 7",
+				"color": "var(--pink)"
+			},
+			"example-demo-8": {
+				"name": "Example Demo 8",
+				"color": "var(--pink)"
+			},
+			"example-demo-9": {
+				"name": "Example Demo 9",
+				"color": "var(--pink)"
+			},
+			"example-demo-10": {
+				"name": "Example Demo 10",
+				"color": "var(--pink)"
+			}
+		}
+	},
+	"example-chapter-2": {
+		"title": "Chapter Name",
+		"subtitle": "Chapter 2",
+		"desc": "This is where your chapter’s description would go!",
+		"color": "var(--green)",
+		"demos": {
+			"example-demo-1": {
+				"name": "Example Demo 1",
+				"color": "var(--green)"
+			},
+			"example-demo-2": {
+				"name": "Example Demo 2",
+				"color": "var(--green)"
+			},
+			"example-demo-3": {
+				"name": "Example Demo 3",
+				"color": "var(--green)"
+			},
+			"example-demo-4": {
+				"name": "Example Demo 4",
+				"color": "var(--green)"
+			},
+			"example-demo-5": {
+				"name": "Example Demo 5",
+				"color": "var(--green)"
+			},
+			"example-demo-6": {
+				"name": "Example Demo 6",
+				"color": "var(--green)"
+			},
+			"example-demo-7": {
+				"name": "Example Demo 7",
+				"color": "var(--green)"
+			},
+			"example-demo-8": {
+				"name": "Example Demo 8",
+				"color": "var(--green)"
+			},
+			"example-demo-9": {
+				"name": "Example Demo 9",
+				"color": "var(--green)"
+			},
+			"example-demo-10": {
+				"name": "Example Demo 10",
+				"color": "var(--green)"
+			}
+		}
+	},
+	"example-chapter-3": {
+		"title": "Chapter Name",
+		"subtitle": "Chapter 3",
+		"desc": "This is where your chapter’s description would go!",
+		"color": "var(--blue)",
+		"demos": {
+			"example-demo-1": {
+				"name": "Example Demo 1",
+				"color": "var(--blue)"
+			},
+			"example-demo-2": {
+				"name": "Example Demo 2",
+				"color": "var(--blue)"
+			},
+			"example-demo-3": {
+				"name": "Example Demo 3",
+				"color": "var(--blue)"
+			},
+			"example-demo-4": {
+				"name": "Example Demo 4",
+				"color": "var(--blue)"
+			},
+			"example-demo-5": {
+				"name": "Example Demo 5",
+				"color": "var(--blue)"
+			},
+			"example-demo-6": {
+				"name": "Example Demo 6",
+				"color": "var(--blue)"
+			},
+			"example-demo-7": {
+				"name": "Example Demo 7",
+				"color": "var(--blue)"
+			},
+			"example-demo-8": {
+				"name": "Example Demo 8",
+				"color": "var(--blue)"
+			},
+			"example-demo-9": {
+				"name": "Example Demo 9",
+				"color": "var(--blue)"
+			},
+			"example-demo-10": {
+				"name": "Example Demo 10",
+				"color": "var(--blue)"
+			}
+		}
+	},
+	"example-chapter-4": {
+		"title": "Chapter Name",
+		"subtitle": "Chapter 4",
+		"desc": "This is where your chapter’s description would go!",
+		"color": "var(--yellow)",
+		"demos": {
+			"example-demo-1": {
+				"name": "Example Demo 1",
+				"color": "var(--yellow)"
+			},
+			"example-demo-2": {
+				"name": "Example Demo 2",
+				"color": "var(--yellow)"
+			},
+			"example-demo-3": {
+				"name": "Example Demo 3",
+				"color": "var(--yellow)"
+			},
+			"example-demo-4": {
+				"name": "Example Demo 4",
+				"color": "var(--yellow)"
+			},
+			"example-demo-5": {
+				"name": "Example Demo 5",
+				"color": "var(--yellow)"
+			},
+			"example-demo-6": {
+				"name": "Example Demo 6",
+				"color": "var(--yellow)"
+			},
+			"example-demo-7": {
+				"name": "Example Demo 7",
+				"color": "var(--yellow)"
+			},
+			"example-demo-8": {
+				"name": "Example Demo 8",
+				"color": "var(--yellow)"
+			},
+			"example-demo-9": {
+				"name": "Example Demo 9",
+				"color": "var(--yellow)"
+			},
+			"example-demo-10": {
+				"name": "Example Demo 10",
+				"color": "var(--yellow)"
+			}
+		}
+	},
+	"example-chapter-5": {
+		"title": "Chapter Name",
+		"subtitle": "Chapter 5",
+		"desc": "This is where your chapter’s description would go!",
+		"color": "var(--purple)",
+		"demos": {
+			"example-demo-1": {
+				"name": "Example Demo 1",
+				"color": "var(--purple)"
+			},
+			"example-demo-2": {
+				"name": "Example Demo 2",
+				"color": "var(--purple)"
+			},
+			"example-demo-3": {
+				"name": "Example Demo 3",
+				"color": "var(--purple)"
+			},
+			"example-demo-4": {
+				"name": "Example Demo 4",
+				"color": "var(--purple)"
+			},
+			"example-demo-5": {
+				"name": "Example Demo 5",
+				"color": "var(--purple)"
+			},
+			"example-demo-6": {
+				"name": "Example Demo 6",
+				"color": "var(--purple)"
+			},
+			"example-demo-7": {
+				"name": "Example Demo 7",
+				"color": "var(--purple)"
+			},
+			"example-demo-8": {
+				"name": "Example Demo 8",
+				"color": "var(--purple)"
+			},
+			"example-demo-9": {
+				"name": "Example Demo 9",
+				"color": "var(--purple)"
+			},
+			"example-demo-10": {
+				"name": "Example Demo 10",
+				"color": "var(--purple)"
+			}
+		}
+	},
+	"example-chapter-6": {
+		"title": "Chapter Name",
+		"subtitle": "Chapter 6",
+		"desc": "This is where your chapter’s description would go!",
+		"color": "var(--red)",
+		"demos": {
+			"example-demo-1": {
+				"name": "Example Demo 1",
+				"color": "var(--red)"
+			},
+			"example-demo-2": {
+				"name": "Example Demo 2",
+				"color": "var(--red)"
+			},
+			"example-demo-3": {
+				"name": "Example Demo 3",
+				"color": "var(--red)"
+			},
+			"example-demo-4": {
+				"name": "Example Demo 4",
+				"color": "var(--red)"
+			},
+			"example-demo-5": {
+				"name": "Example Demo 5",
+				"color": "var(--red)"
+			},
+			"example-demo-6": {
+				"name": "Example Demo 6",
+				"color": "var(--red)"
+			},
+			"example-demo-7": {
+				"name": "Example Demo 7",
+				"color": "var(--red)"
+			},
+			"example-demo-8": {
+				"name": "Example Demo 8",
+				"color": "var(--red)"
+			},
+			"example-demo-9": {
+				"name": "Example Demo 9",
+				"color": "var(--red)"
+			},
+			"example-demo-10": {
+				"name": "Example Demo 10",
+				"color": "var(--red)"
+			}
+		}
+	}
+}

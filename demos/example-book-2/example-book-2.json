@@ -1,0 +1,66 @@
+{
+	"example-chapter-1": {
+		"title": "Chapter Name",
+		"subtitle": "Subtitle",
+		"desc": "This is where your chapter’s description would go!",
+		"color": "rainbow",
+		"demos": {
+			"example-demo-1": {
+				"name": "Example Demo 1",
+				"color": "var(--pink)"
+			},
+			"example-demo-2": {
+				"name": "Example Demo 2",
+				"color": "var(--green)"
+			},
+			"example-demo-3": {
+				"name": "Example Demo 3",
+				"color": "var(--blue)"
+			},
+			"example-demo-4": {
+				"name": "Example Demo 4",
+				"color": "var(--yellow)"
+			},
+			"example-demo-5": {
+				"name": "Example Demo 5",
+				"color": "var(--purple)"
+			},
+			"example-demo-6": {
+				"name": "Example Demo 6",
+				"color": "var(--red)"
+			}
+		}
+	},
+	"example-chapter-2": {
+		"title": "Chapter Name",
+		"subtitle": "Subtitle",
+		"desc": "This is where your chapter’s description would go!",
+		"color": "rainbow",
+		"demos": {
+			"example-demo-1": {
+				"name": "Example Demo 1",
+				"color": "var(--pink)"
+			},
+			"example-demo-2": {
+				"name": "Example Demo 2",
+				"color": "var(--green)"
+			},
+			"example-demo-3": {
+				"name": "Example Demo 3",
+				"color": "var(--blue)"
+			},
+			"example-demo-4": {
+				"name": "Example Demo 4",
+				"color": "var(--yellow)"
+			},
+			"example-demo-5": {
+				"name": "Example Demo 5",
+				"color": "var(--purple)"
+			},
+			"example-demo-6": {
+				"name": "Example Demo 6",
+				"color": "var(--red)"
+			}
+		}
+	}
+}

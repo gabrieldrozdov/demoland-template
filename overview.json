@@ -1,0 +1,17 @@
+{
+	"tutorial": {
+		"title": "Tutorial",
+		"shortdesc": "Learn how to use this website",
+		"desc": "<p>Get started with DEMOLAND! Learn how to use this website and what HTML, CSS, and JavaScript are.</p>"
+	},
+	"example-book-1": {
+		"title": "Example Book 1",
+		"shortdesc": "A book spanning 6 chapters",
+		"desc": "<p>Write your book’s description here! The rest of this description is placeholder text.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+	},
+	"example-book-2": {
+		"title": "Example Book 2",
+		"shortdesc": "A book of self-contained chapters",
+		"desc": "<p>Write your book’s description here! The rest of this description is placeholder text.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+	}
+}
