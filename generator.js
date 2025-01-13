@@ -13,10 +13,10 @@
 // top-right corner.
 // ————————————————————————————————————————————————————————————
 const introTitle = `Welcome to the DEMOLAND template site!`;
-const introSubtitle = `A website template that allows you to distribute editable code demos (HTML, CSS, JavaScript) entirely within your web browser. By&nbsp;<a href="https://gdwithgd.com/" target="_blank">GD&nbsp;with&nbsp;GD</a>.`;
+const introSubtitle = `DEMOLAND is an open source website template that allows you to distribute editable code demos (HTML, CSS, JavaScript) entirely within your web browser. By&nbsp;<a href="https://gdwithgd.com/" target="_blank">GD&nbsp;with&nbsp;GD</a>.`;
 const info = `
 	<p>
-		DEMOLAND is a website template that allows you to distribute editable code demos (HTML, CSS, JavaScript) entirely within your web browser. This project was created by <a href="https://gdwithgd.com/" target="_blank">GD&nbsp;with&nbsp;GD</a> to make teaching code easier, without the need for subscribing to any premium code distribution services.
+		DEMOLAND is an open source website template that allows you to distribute editable code demos (HTML, CSS, JavaScript) entirely within your web browser. This project was created by <a href="https://gdwithgd.com/" target="_blank">GD&nbsp;with&nbsp;GD</a> to make teaching code easier, without the need for subscribing to any premium code distribution services.
 	</p>
 	<p>
 		DEMOLAND is a metaphor for a library containing books featuring chapters of demos. Each book is organized via JSON files, and each demo is split up into two HTML files (content and information). A Node.js file generates the homepage as a static document, while the code editor page fetches demos dynamically. The editor is built using <a href='https://codemirror.net/5/' target="_blank">CodeMirror 5</a>.
@@ -81,7 +81,7 @@ function generateOverview() {
 				totalDemos++;
 				let demo = chapter['demos'][demoKey];
 				demos += `
-					<a href="/editor/?book=${bookKey}&chapter=${chapterKey}&demo=${demoKey}" class="chapter-demo" style="--primary: ${demo['color']};">
+					<a href="editor/?book=${bookKey}&chapter=${chapterKey}&demo=${demoKey}" class="chapter-demo" style="--primary: ${demo['color']};">
 						<div class="chapter-demo-number">${demoIndex}</div>
 						<div class="chapter-demo-name">${demo['name']}</div>
 					</a>
@@ -100,7 +100,7 @@ function generateOverview() {
 			bookChapters += `
 				<section class="chapter ${rainbowClass}" id="${bookKey}-${chapterKey}" style="--primary: ${chapter['color']}">
 					<div class="chapter-header">
-						<a class="chapter-link" href="/editor/?book=${bookKey}&chapter=${chapterKey}&demo=${Object.keys(chapter['demos'])[0]}">
+						<a class="chapter-link" href="editor/?book=${bookKey}&chapter=${chapterKey}&demo=${Object.keys(chapter['demos'])[0]}">
 							<div class="chapter-subtitle">
 								${chapter['subtitle']}
 							</div>
@@ -111,7 +111,7 @@ function generateOverview() {
 						<p class="chapter-desc">
 							${chapter['desc']}
 						</p>
-						<a href="/editor/?book=${bookKey}&chapter=${chapterKey}&demo=${Object.keys(chapter['demos'])[0]}" class="chapter-open">Open chapter &nbsp;&nearr;</a>
+						<a href="editor/?book=${bookKey}&chapter=${chapterKey}&demo=${Object.keys(chapter['demos'])[0]}" class="chapter-open">Open chapter &nbsp;&nearr;</a>
 					</div>
 					<div class="chapter-demos">
 						${demos}
