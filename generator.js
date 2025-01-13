@@ -86,7 +86,7 @@ function generateOverview() {
 						<div class="chapter-demo-name">${demo['name']}</div>
 					</a>
 				`;
-				allDemos += `{'name':'${demo['name']}','color':'${demo['color']}','url':'/editor/?book=${bookKey}&chapter=${chapterKey}&demo=${demoKey}'},`;
+				allDemos += `{'name':'${demo['name']}','color':'${demo['color']}','url':'editor/?book=${bookKey}&chapter=${chapterKey}&demo=${demoKey}'},`;
 				demoIndex++;
 			}
 
