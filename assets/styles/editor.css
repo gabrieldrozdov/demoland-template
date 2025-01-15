@@ -114,7 +114,6 @@ body {
 	background-color: var(--black3);
 	font-variation-settings: 'wght' 550, 'SRFF' 0;
 	font-weight: 550;
-	border-top: 1px solid var(--black2);
 	overflow-x: scroll;
 	white-space: nowrap;
 }
