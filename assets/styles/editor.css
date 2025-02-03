@@ -1091,7 +1091,7 @@ body {
 	height: 100%;
 	background-color: var(--black3);
 }
-.cm-s-gdwithgd div.CodeMirror-selected { background: var(--black3); }
+.cm-s-gdwithgd div.CodeMirror-selected { background: var(--black2); }
 .cm-s-gdwithgd .CodeMirror-line::selection, .cm-s-gdwithgd .CodeMirror-line > span::selection, .cm-s-gdwithgd .CodeMirror-line > span > span::selection { background: var(--black3); }
 .cm-s-gdwithgd .CodeMirror-line::-moz-selection, .cm-s-gdwithgd .CodeMirror-line > span::-moz-selection, .cm-s-gdwithgd .CodeMirror-line > span > span::-moz-selection { background: var(--black3); }
 .cm-s-gdwithgd .CodeMirror-gutters { background: var(--black4); border-right: none; }
