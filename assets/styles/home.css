@@ -25,10 +25,10 @@ body {
 	--yellow: #fcc03a;
 	--pink: #F3A8DD;
 	--green: #98DB6B;
-	--black: hsl(0, 0%, 30%);
-	--black2: hsl(0, 0%, 22%);
-	--black3: hsl(0, 0%, 14%);
-	--black4: hsl(0, 0%, 8%);
+	--black: hsl(0, 0%, 32%);
+	--black2: hsl(0, 0%, 26%);
+	--black3: hsl(0, 0%, 18%);
+	--black4: hsl(0, 0%, 10%);
 	--white: hsl(0, 0%, 90%);
 	--truewhite: white;
 	--primary: var(--white);
